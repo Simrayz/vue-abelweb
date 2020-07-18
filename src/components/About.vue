@@ -5,7 +5,7 @@
             <p class="text-lg text-gray-800 mt-3 text-right">I'm 24 years old, and I am currently writing a master thesis in computer science at NTNU in Trondheim.</p>
             <div class="flex items-center mt-3">
                 <p class="text-lg text-gray-800 flex-1">I like to make cool things, so I co-founded my own software company, Metaito, in 2019.</p>
-                <div class="w-20 h-20 rounded-lg bg-blue-800 ml-3" />
+                <img class="w-20 h-20 rounded-lg ml-3 object-cover" src="../assets/code-bg.jpg" />
             </div>
             <div class="flex items-center mt-3">
                 <div class="w-20 h-20 rounded-lg bg-blue-800 mr-3" />

@@ -1,5 +1,5 @@
 <template>
-    <div class="relative bg-white h-32">
+    <section class="relative bg-white">
         <div
             class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style="height: 80px; transform: translateZ(0px);"
@@ -16,7 +16,7 @@
                 <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
             </svg>
         </div>
-        <div class="container mx-auto py-10 lg:pt-0 max-w-xl">
+        <div class="relative container mx-auto py-10 pb-12 lg:pt-0 max-w-xl">
             <div class="px-10">
                 <h1 class="text-3xl text-gray-900">What can I do for you?</h1>
                 <p class="text-lg text-gray-800 mt-3">
@@ -30,5 +30,5 @@
                 </p>
             </div>
         </div>
-    </div>
+    </section>
 </template>
