@@ -1,5 +1,7 @@
 <template>
-  <section class="relative w-full bg-blue-900 text-blue-100 pt-5 pb-10 flex flex-col">
+  <section
+    class="relative w-full bg-blue-900 text-blue-100 pt-5 pb-5 flex flex-col"
+  >
     <div
       class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
       style="height: 80px; transform: translateZ(0px);"
@@ -13,7 +15,10 @@
         x="0"
         y="0"
       >
-        <polygon class="text-blue-900 fill-current" points="2560 0 2560 100 0 100" />
+        <polygon
+          class="text-blue-900 fill-current"
+          points="2560 0 2560 100 0 100"
+        />
       </svg>
     </div>
     <div class="container max-w-lg mx-auto flex-1">
