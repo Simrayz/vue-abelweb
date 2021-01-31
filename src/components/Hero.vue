@@ -6,8 +6,8 @@
         <div class="container relative mx-auto">
             <div class="items-center flex flex-wrap">
                 <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-                    <h1 class="text-gray-100 text-4xl font-medium">Hello, I'm Simen</h1>
-                    <p class="mt-4 text-lg text-gray-200">A computer science student, passionate about web development.</p>
+                    <h1 class="text-gray-200 text-4xl font-medium">Hello, I'm Simen</h1>
+                    <p class="mt-4 text-lg text-gray-300">A computer science engineer, passionate about web development.</p>
                 </div>
             </div>
         </div>

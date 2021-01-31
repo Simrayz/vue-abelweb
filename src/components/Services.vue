@@ -17,18 +17,25 @@
             </svg>
         </div>
         <div class="relative container mx-auto py-10 pb-12 lg:pt-0 max-w-xl">
-            <div class="px-10">
+            <div class="px-10 pb-5">
                 <h1 class="text-3xl text-gray-900">What can I do for you?</h1>
-                <p class="text-lg text-gray-800 mt-3">
-                    While running a startup takes up most of my time, I'm available for freelance work on simple websites or short-term projects.          
-                </p>
-                <p class="text-lg text-gray-800 mt-3">
-                    I can provide a full-package deal, including design, implementation, hosting and maintenance. The process is transparent, and you don't have to pay until you're satisfied.
-                </p>
-                <p class="text-lg text-gray-800 mt-3">
-                    In addition, I can assist with profiling such as logos, flyers or posters, through collaboration partners.
-                </p>
+                <p v-for="(line, i) in lines" class="text-lg text-gray-800 mt-3" :key="i">{{ line }}</p>
             </div>
         </div>
     </section>
 </template>
+<script>
+export default {
+    setup() {
+        const lines = [
+            "I am currently looking for a full-time job as a software developer, but I'm available for work on simple websites or short-term projects.",
+            "I can provide a full-package deal, including design, implementation, hosting and maintenance. The process is transparent, and you don't have to pay until you're satisfied.",
+            "In addition, I can assist with profiling such as logos, flyers or posters, through collaboration partners."
+        ]
+
+        return {
+            lines
+        }
+    }
+}
+</script>
