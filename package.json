@@ -1,18 +1,22 @@
 {
   "name": "abelweb",
   "version": "0.0.0",
-  "description": "A vue3 Abelweb application",
-  "license": "MIT",
   "scripts": {
+    "build": "vite build",
     "dev": "vite",
-    "build": "vite build"
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
   },
   "dependencies": {
     "tailwindcss": "^1.4.6",
-    "vue": "^3.0.0-beta.15"
+    "vue": "^3.0.0-beta.15",
+    "vue-i18n": "^9.0.0-alpha.11"
   },
   "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-beta.15",
+    "prettier": "2.0.5",
     "vite": "^1.0.0-beta.3",
-    "@vue/compiler-sfc": "^3.0.0-beta.15"
-  }
+    "vue-cli-plugin-i18n": "^1.0.1"
+  },
+  "description": "A vue3 Abelweb application",
+  "license": "MIT"
 }
